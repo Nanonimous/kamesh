@@ -1,0 +1,120 @@
+
+:root{
+  --green-color: #00E60D;
+  --green-balls:#5EF800;
+}
+
+
+
+body{
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.title{
+  font-size:3em;
+  color: var(--green-color);
+}
+
+.main-Login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 28vw;
+}
+
+.teacher-sign-in{
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.teacher-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 13px;
+}
+
+label{
+  font-size: 1.2em;
+  color: var(--green-color);
+  font-weight: 500;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  font-size: 1em; 
+}
+
+.forget-pass{
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-top: 0.1%;
+  color: var(--green-color);
+}
+
+.teacher-sign-in-button{
+  padding: 2%;
+  font-size: 1em;
+  color: #B4FAB4;
+  font-weight: 700;
+  background-color: var(--green-color);
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  border: 0.1px solid #aaffb1;
+}
+
+.teacher-sign-in-button:hover{
+  cursor: pointer;
+}
+
+
+
+.student-sign-in-button{
+  width: 100%;
+  padding: 2%;
+  font-size: 1em;
+  color: #B4FAB4;
+  font-weight: 700;
+  background-color: var(--green-color);
+  outline: none;
+  border: none;
+  border: 0.1px solid #aaffb1;
+  border-radius: 50px;
+}
+
+.student-sign-in-button:hover{
+  cursor: pointer;
+}
+
+.terms{
+  color: var(--green-color);
+  font-size: 0.8em;
+}
+
+.student-form{
+  width: 100%;
+  margin-top: 4%;
+
+}
+
+.green-ball{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: var(--top);
+  left:var(--left);
+  bottom: var(--bottom);
+  right:var(--right);
+  border-radius: 50%;
+  background-color: var(--green-balls);
+}
